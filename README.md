@@ -23,11 +23,14 @@ Antes de realizar o deploy acessar o arquivo `application.properties` e alterar 
 
 O banco de dados utilizado foi o MongoDB.
 Alterar as configurações abaixo:
-`spring.data.mongodb.port=8085`
-`spring.data.mongodb.host=localhost`
+
+ `spring.data.mongodb.port=8085`
+
+ `spring.data.mongodb.host=localhost`
 
 Com isso feito, basta executar o comando abaixo para subir a aplicação.
-`mvn spring-boot:run`
+
+ `mvn spring-boot:run`
 
 Com a aplicação rodando, basta acessar o endereço http://localhost:8080/swagger-ui.html para visualizar a documentação da API e testar os endpoints
 
