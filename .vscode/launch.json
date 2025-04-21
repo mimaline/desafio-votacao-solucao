@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VotingApplication<sicredi-voting>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sicredi.voting.VotingApplication",
+            "projectName": "sicredi-voting",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-VotingApplication<springboot-mongodb>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sicredi.voting.VotingApplication",
+            "projectName": "springboot-mongodb",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-VotingApplication<voting>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sicredi.voting.VotingApplication",
+            "projectName": "voting",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
